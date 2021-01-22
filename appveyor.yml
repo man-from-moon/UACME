@@ -9,3 +9,8 @@ clone_folder: c:\projects\uacme
 build:
   project: Source/uacme.sln
   verbosity: normal
+artifacts:
+  - path: Akagi64.exe
+    name: Akagi64
+  - path: Fubuki64.dll
+    name: Fubuki64
