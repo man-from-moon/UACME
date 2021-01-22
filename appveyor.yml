@@ -11,9 +11,12 @@ build:
   verbosity: normal
 artifacts:
   - path: Source\Akatsuki\output\x64\Release\Akatsuki64.dll
+    name: Akatsuki64
   - path: Source\Akagi\output\x64\Release\Akagi64.exe
+    name: Akagi64
   - path: Source\Fubuki\output\x64\Release\Fubuki64.dll
+    name: Fubuki64
   - path: Source\Naka\output\x64\Release\Naka64.exe
+    name: Naka64
   - path: Source\Yuubari\output\x64\Release\UacInfo64.exe
-    name: Release
-    type: zip
+    name: UacInfo64
