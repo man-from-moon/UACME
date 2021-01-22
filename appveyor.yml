@@ -10,6 +10,10 @@ build:
   project: Source/uacme.sln
   verbosity: normal
 artifacts:
-  - path: Source\Akatsuki\output\x64\Release\*
+  - path: Source\Akatsuki\output\x64\Release\Akatsuki64.dll
+  - path: Source\Akagi\output\x64\Release\Akagi64.exe
+  - path: Source\Fubuki\output\x64\Release\Fubuki64.dll
+  - path: Source\Naka\output\x64\Release\Naka64.exe
+  - path: Source\Yuubari\output\x64\Release\UacInfo64.exe
     name: Release
     type: zip
