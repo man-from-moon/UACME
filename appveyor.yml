@@ -10,6 +10,6 @@ build:
   project: Source/uacme.sln
   verbosity: normal
 artifacts:
-  - path: Release
+  - path: Source\Akatsuki\output\x64\Release\*
     name: Release
     type: zip
